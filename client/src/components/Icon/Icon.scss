@@ -1,0 +1,11 @@
+@import "../../colors.scss";
+
+svg {
+  fill: none;
+
+  .skin, .beak, .comb, .eye {
+    stroke: $color-2;
+    stroke-width: 17;
+    stroke-linecap: round;
+  }
+}
